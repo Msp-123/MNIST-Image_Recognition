@@ -7,7 +7,7 @@ When the model is tested, a success rate of around 97% is achieved. Afterwards, 
 Estimation should be done with numbers created in the same way as the training data. "Anti-aliasing" is used in the training data. 
 I created the images to be guessed with anti-aliasing using brushes with Microsoft Paint. 
 
-Min-Max scaling was performed on the pixel data before being trained. The Min-Max scaling for data between [0, 255] can actually be created 
-by dividing this pixel data by 255. The "overfitting" problem arises when too many epochs are applied to the model. 
+Min-Max scaling was performed on the pixel data before being trained. The Min-Max scaling for data between [0, 255] can actually be created by dividing 
+this pixel data by 255. The "overfitting" problem arises when too many epochs are applied to the model. 
 For this reason, the number of epochs was determined as 20. 
 The 28x28 pixel data is applied in the form of an input with 784 elements, not in a matrix form.
